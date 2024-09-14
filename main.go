@@ -15,7 +15,7 @@ func main() {
 
 	e.GET("/", func(c echo.Context) error {
 		h := &message{
-			Msg: "hello, Docker 🐳",
+			Msg: "hello, Dockerss 🐳",
 		}
 		return c.JSON(http.StatusOK, h)
 	})
